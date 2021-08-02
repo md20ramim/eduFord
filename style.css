@@ -482,3 +482,15 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+@media only screen and (max-width: 700px){
+    .contuct-col div h5{
+        font-size: 15px;
+    }
+    .contuct-col div p{
+        font-size: 10px;
+    }
+    .contuct-col div .fab, .contuct-col div .fas{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}
